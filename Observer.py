@@ -68,7 +68,7 @@ class WeatherData(Subject):
     def pressure(self, pressure):
         self.__pressure = pressure
 
-    def registerObserver(self, observer, None):
+    def registerObserver(self, observer):
         self.__observers.append(observer)
 
     def removeObserver(self, observer):
@@ -86,7 +86,8 @@ class WeatherData(Subject):
         self.__temperature = temperature
         self.measurementsChanged()
 
-class CurrentConditionDisplay(Observer)
+
+class CurrentConditionDisplay(Observer):
 
     def __init__(self, weatherData):
         self.__temperature = 0
@@ -125,5 +126,6 @@ class CurrentConditionDisplay(Observer)
         self.__temperature = temp
         self.__humidity = humidity
 
-    def display(self): #not implemented, should create interface or abc class
-        print("Current conditions: " + str(self.temperature) + " C degrees, " + str(self.humidity) + "% humidity and " + str(self.pressure) + " bar pressure")
+    def display(self):  # not implemented, should create interface or abc class
+        print("Current conditions: " + str(self.temperature) + " C degrees, " + str(
+            self.humidity) + "% humidity and " + str(self.pressure) + " bar pressure")
