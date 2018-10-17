@@ -78,13 +78,16 @@ class WeatherData(Subject):
 
     def registerObserver(self, observer):
         self.__observers.append(observer)
+        print("New subscriber!")
 
     def removeObserver(self, observer):
         self.__observers.remove(observer)
+        print("Subscriber " + observer.name + " deleted!")
 
     def notifyObservers(self):
         for obs in self.__observers:
             obs.update(self.temperature, self.humidity, self.pressure)
+            print("Subscriber " + obs.name + "get message!")
 
     def measurementsChanged(self):
         self.notifyObservers()
@@ -138,6 +141,7 @@ class CurrentConditionDisplay(Observer):
     @pressure.setter
     def pressure(self, pressure):
         self.__pressure = pressure
+
     @property
     def weatherData(self):
         return self.__weatherData
@@ -164,3 +168,5 @@ conditionDisplay2 = CurrentConditionDisplay("Observer 2", weatherData)
 weatherData.setMeasurements(80, 65, 30.4)
 weatherData.setMeasurements(82, 70, 29.2)
 weatherData.setMeasurements(78, 90, 29.2)
+weatherData.removeObserver(conditionDisplay1)
+weatherData.removeObserver(conditionDisplay2)
