@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae119643-90c4-4f29-8017-39487bbd4f2a" name="Default Changelist" comment="" />
+    <list default="true" id="ae119643-90c4-4f29-8017-39487bbd4f2a" name="Default Changelist" comment="vcs and minor error fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Observer.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +14,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Zmeya$Main2.coverage" NAME="Main2 Coverage Results" MODIFIED="1538049352694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Zmeya$Singleton.coverage" NAME="Singleton Coverage Results" MODIFIED="1538159252264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Design_Patterns$Observer.coverage" NAME="Observer Coverage Results" MODIFIED="1539752646251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Zmeya$Main.coverage" NAME="Main Coverage Results" MODIFIED="1538045962492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Design_Patterns$FactoryMethod.coverage" NAME="FactoryMethod Coverage Results" MODIFIED="1539750203102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -65,6 +70,38 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-1277873570">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="348" />
+          <entry key="txt" value="26" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="348" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -84,23 +121,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FactoryMethod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
+            <state relative-caret-position="-630" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Observer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="128" column="158" lean-forward="true" selection-start-line="128" selection-start-column="158" selection-end-line="128" selection-end-column="158" />
+            <state relative-caret-position="274">
+              <caret line="155" column="57" selection-start-line="155" selection-start-column="57" selection-end-line="155" selection-end-column="57" />
               <folding>
-                <marker date="1539747738297" expanded="true" signature="84:131" ph="..." />
-                <marker date="1539747738297" expanded="true" signature="443:445" ph="..." />
-                <marker date="1539747738297" expanded="true" signature="682:687" ph="..." />
-                <marker date="1539747738297" expanded="true" signature="950:988" ph="..." />
+                <marker date="1539752644191" expanded="true" signature="84:131" ph="..." />
+                <marker date="1539752644191" expanded="true" signature="443:445" ph="..." />
+                <marker date="1539752644191" expanded="true" signature="682:687" ph="..." />
+                <marker date="1539752644191" expanded="true" signature="950:988" ph="..." />
+                <marker date="1539752644191" expanded="true" signature="1858:1972" ph="..." />
+                <marker date="1539752644191" expanded="true" signature="3553:3610" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="307" column="17" selection-start-line="307" selection-start-column="17" selection-end-line="307" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -122,6 +168,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,8 +221,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Zmeya" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zmeya" type="462c0819:PsiDirectoryNode" />
+              <item name="Python-Design-Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Design-Patterns" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +247,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Singleton">
+  <component name="RunManager" selected="Python.Observer">
+    <configuration name="FactoryMethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Zmeya" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FactoryMethod.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zmeya" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,6 +314,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Observer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Zmeya" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Singleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zmeya" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,9 +362,13 @@
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.Main2" />
       <item itemvalue="Python.Singleton" />
+      <item itemvalue="Python.Observer" />
+      <item itemvalue="Python.FactoryMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Observer" />
+        <item itemvalue="Python.FactoryMethod" />
         <item itemvalue="Python.Singleton" />
         <item itemvalue="Python.Main2" />
         <item itemvalue="Python.Main" />
@@ -289,18 +386,26 @@
       <option name="presentableId" value="Default" />
       <updated>1537972973296</updated>
     </task>
+    <task id="LOCAL-00001" summary="vcs and minor error fix">
+      <created>1539749920566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539749920566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375839" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13959731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22097902" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22097902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34405595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,6 +429,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vcs and minor error fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="vcs and minor error fix" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -343,17 +452,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Singleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="307" column="17" selection-start-line="307" selection-start-column="17" selection-end-line="307" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -368,22 +482,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Observer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="128" column="158" lean-forward="true" selection-start-line="128" selection-start-column="158" selection-end-line="128" selection-end-column="158" />
+        <state relative-caret-position="274">
+          <caret line="155" column="57" selection-start-line="155" selection-start-column="57" selection-end-line="155" selection-end-column="57" />
           <folding>
-            <marker date="1539747738297" expanded="true" signature="84:131" ph="..." />
-            <marker date="1539747738297" expanded="true" signature="443:445" ph="..." />
-            <marker date="1539747738297" expanded="true" signature="682:687" ph="..." />
-            <marker date="1539747738297" expanded="true" signature="950:988" ph="..." />
+            <marker date="1539752644191" expanded="true" signature="84:131" ph="..." />
+            <marker date="1539752644191" expanded="true" signature="443:445" ph="..." />
+            <marker date="1539752644191" expanded="true" signature="682:687" ph="..." />
+            <marker date="1539752644191" expanded="true" signature="950:988" ph="..." />
+            <marker date="1539752644191" expanded="true" signature="1858:1972" ph="..." />
+            <marker date="1539752644191" expanded="true" signature="3553:3610" ph="..." />
           </folding>
         </state>
       </provider>
